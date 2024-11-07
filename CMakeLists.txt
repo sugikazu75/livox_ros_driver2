@@ -58,7 +58,8 @@ if(ROS_EDITION STREQUAL "ROS1")
     system
     thread
     chrono
-  )
+    MPI
+    )
 
   ## Find catkin macros and libraries
   ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
